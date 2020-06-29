@@ -42,8 +42,8 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: rgba(0, 0, 0, 0.2);
-  color: #fff;
+  background: rgba(0, 0, 0, 1.2);
+  color: orange;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
   border-radius: 2px;
@@ -168,7 +168,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
-  color: #fff;
+  color: orange;
+  text-shadow: 2px 2px black;
 }
 
 @media (max-width: 768px) {
@@ -179,9 +180,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #eee;
+  color: orange;
   margin-bottom: 50px;
-  font-size: 24px;
+  font-size: 28px;
+  text-shadow: 2px 2px black;
 }
 
 @media (max-width: 768px) {
