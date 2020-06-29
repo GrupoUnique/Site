@@ -80,6 +80,12 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
 }
 
+#header #header{
+    margin-bottom: 40px;
+    height: 125px;
+    position: absolute;
+}
+
 #header #logo {
   float: left;
 }
@@ -114,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 1.9);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
